@@ -1,0 +1,35 @@
+.form-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #24272677;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.btn-form {
+    margin-left: 68%;
+    background-color: #dbb728;
+    margin-top: 20px;
+    width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+    /* Para dispositivos con al menos 768px de ancho */
+    form {
+        margin: 50px; /* Aumenté el margen para dispositivos medianos */
+        padding: 30px; /* Aumenté el relleno para dispositivos medianos */
+    }
+
+    .btn-form {
+        width: 30%; /* Restauro el ancho original para dispositivos medianos */
+        margin-left: auto; /* Centra el botón en dispositivos medianos */
+        margin-right: 0; /* Centra el botón en dispositivos medianos */
+    }
+}

@@ -1,0 +1,25 @@
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    background-color: #c1c0c072;
+}
+
+.success {
+    background-color: green;
+}
+
+.danger {
+    background-color: red;
+}
+
+.default {
+    color: black;
+    background-color: #c1c0c072;
+}
